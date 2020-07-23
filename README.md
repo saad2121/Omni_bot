@@ -1,6 +1,6 @@
 # Omni Directional Mobile Robot
  This project has been presented in the 'International Conference on Advances in Mechanical Engineering, 2020'.
- Please cite this paper if you are using this repository:[paper](https://www.springer.com/in/book/9789811536380)
+ Please cite this paper if you are using this repository:[paper](https://link.springer.com/chapter/10.1007/978-981-15-3639-7_55)
  #### Omni_bot
   ![Image](https://github.com/saad2121/Omni_bot/blob/master/omni_bot.jpg)
 
@@ -19,17 +19,17 @@ Mobile robots at present are used extensively in the industrial and commercial s
 ###### Additional parameters
  * Fixed Step Size = 0.02
  #### Simulation of Omni_bot using PID Controller
- * Run **omnipid.m** in MATLAB
- * Run **omnipid_infinity.slx** in simulink 
+ * Run ```omnipid.m``` in MATLAB
+ * Run ```omnipid_infinity.slx``` in simulink 
  
   #### Simulation of Omni_bot using SMC Controller
- * Run **omnismc.m** in MATLAB
- * Run **omnismc_infinity.slx** in simulink 
+ * Run ```omnismc.m``` in MATLAB
+ * Run ```omnismc_infinity.slx``` in simulink 
  #### Deploy the Code on Hardware
- * Run **omnismc.m** in MATLAB
- * Deploy **omni_smc_infinity_arduino.slx.original** using Simulink (Make sure MATLAB Support package for Arduino is already Installed)
+ * Run ```omnismc.m``` in MATLAB
+ * Deploy ```omni_smc_infinity_arduino.slx.original``` using Simulink (Make sure MATLAB Support package for Arduino is already Installed)
  #### Check Hardare
-  To check the working of hardware, we used [Atduino IDE](https://www.arduino.cc/en/main/software) and run the code **OSquare.ino**, using this code bot performs square trajectory.
+  To check the working of hardware, we used [Atduino IDE](https://www.arduino.cc/en/main/software) and run the code ```OSquare.ino```, using this code bot performs square trajectory.
   
 ## Dependencies:
 * [MATLAB](https://in.mathworks.com/products/matlab.html)
